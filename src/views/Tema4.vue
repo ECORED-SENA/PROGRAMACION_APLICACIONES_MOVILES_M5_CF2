@@ -4,9 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        span  2
-      h1 Tipos de aplicaciones móviles
-    
+        span  4
+      h1 Frameworks para el desarrollo de aplicaciones móviles híbridas  
 
 
 
@@ -28,7 +27,7 @@
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),

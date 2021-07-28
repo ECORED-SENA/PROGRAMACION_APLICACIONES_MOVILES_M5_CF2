@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Aplicaciones móviles híbridas',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Una aplicación híbrida se crea utilizando HTML5, funciona en cualquier plataforma y dispositivo.  Son más rápidas de desarrollar, pero no permiten acceder a todos los recursos de un smartphone, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -24,209 +23,37 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Introducción aplicaciones móviles híbridas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Tipos de aplicaciones móviles',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'La monetización de las apps',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Frameworks para el desarrollo de aplicaciones móviles híbridas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Etapas en el desarrollo de apps',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -266,134 +93,49 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Cadenas, R. (2019). ¿Qué necesito? ¿Web Apps, App Nativa o App Híbrida? GSoft.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'CuponU. (2021). Uber ¿Cómo funciona? CuponU.com.',
+      link: 'https://cuponu.com/uber-como-funciona/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'BackEnd',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es un conjunto de acciones que permiten la integración a las bases de datos o la conexión por medio de API a los dispositivos o servicios.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Interface (interfaz)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Zona de contacto, conexión entre dos componentes de hardware, entre dos aplicaciones o entre un usuario y una aplicación. [WEB]. También apariencia externa de una aplicación informática. Ver también: "application". [RFCALVO]',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'JavaScript',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Lenguaje de programación para WWW, desarrollado por Netscape. Al igual que VBScript, pertenece a la familia Java, pero se diferencia de este último en que los programas están incorporados en el fichero HTML.Ver también: "Java", "script", "VBScript". [RFCALVO]',
     },
     {
-      termino: 'Áectores',
+      termino: 'Operating System – OS(sistema operativo)',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Un sistema operativo es un programa especial que se carga en un ordenador o dispositivo móvil tras ser encendido, cuya función es gestionar los programas, o aplicaciones, que se ejecutarán en dicho dispositivo, como un procesador de texto o una hoja de cálculo, o la impresión de un texto en una impresora o una conexión a Internet.',
     },
     {
-      termino: 'Moda',
+      termino: 'Source Code (código fuente)',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de instrucciones que componen un programa informático. Estos programas se escriben en determinados lenguajes, según la necesidad a solucionar. Cada lenguaje tiene características que facilitan el desarrollo.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Web app, nativa o híbrida: Cadenas, R. (2019). ¿Qué necesito? ¿Web Apps, App Nativa o App Híbrida? GSoft.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
     },
   ],
   creditos: {
