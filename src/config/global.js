@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'Una aplicación híbrida se crea utilizando HTML5, funciona en cualquier plataforma y dispositivo.  Son más rápidas de desarrollar, pero no permiten acceder a todos los recursos de un smartphone, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
