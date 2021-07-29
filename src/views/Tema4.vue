@@ -17,14 +17,103 @@
 
     p.mb-5  En la siguiente imagen se muestran algunos de los frameworks disponibles para el desarrollo de apps móviles híbridas:
 
-    .row
+    .row.mb-3
       .col-lg-3
-        //-- Aqui va el overlay card
-      .col-lg-3
-      .col-lg-3
-      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p1.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-lg-3.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Creación de apps solo JavaScript, interfaz de usuario móvil enriquecida.   
 
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p2.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-lg-2.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Desarrollo con tecnologías web como CSS, HTML5 y Sass, para instalarse en dispositivos utilizando Cordova
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p3.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Aplicaciones nativas, usan las mismas API de Xcode o Android Studio. La interfaz de usuario nativa sin WebViews  ejecuta como si fuera desarrollo nativo.
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p4.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Se implementa simultáneamente como un sitio web y como aplicación móvil iOS, Android y escritorio, usando Electron, con una sola  base de código.
 
+    .row.mb-3
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p5.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-lg-3.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Colección de componentes de interfaz de usuario de JavaScript, dirigida a clientes empresariales. No hay ninguna versión gratuita. 
+
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p6.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-lg-2.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Framework HTML móvil gratuito y de código abierto, prototipos para generar el diseño de aplicaciones.
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p7.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Colección de módulos JavaScript modernos. Se puede utilizar de manera independiente en cualquier proyecto de JavaScript.
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p8.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Soluciones empresariales para crear aplicaciones web móviles multiplataforma con HTML5 y JavaScript. 
+    
+    .row.mb-5.justify-content-center
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p9.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Aplicaciones nativas de Android, iOS y Windows con interfaces de usuario nativas, principal framework de desarrollo de aplicaciones móviles híbridas.
+      .col-lg-3
+        .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
+          img(src="@/assets/curso/t4-p10.svg", alt="imagen decorativa", onclick="")
+          .text.align-items-center.p-4(onclick="")
+            .row(onclick="")
+              .col-12
+                p Motores de videojuegos. Entornos de desarrollo más populares. Compila para gran número de plataformas, entre ellas Android, iOS, Windows Phone.  
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
     .row.mb-5.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
