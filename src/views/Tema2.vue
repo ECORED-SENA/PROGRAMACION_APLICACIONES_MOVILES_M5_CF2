@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span  2
       h1 Tipos de aplicaciones móviles
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.slideInUp
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(

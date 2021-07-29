@@ -7,7 +7,7 @@
         span  3
       h1 La monetización de las apps    
 
-    .row.mb-5
+    .row.mb-5.slideInUp
       .col-lg-7
         p.mb-3 Existen dos tipos de apps: <b>gratuitas y de pago.</b>  Pero existen varias subdivisiones según los contenidos y la manera de generar recursos económicos. Hay formas de monetizar apps gratuitas, transformándolas en ideas de negocio muy rentables, capaces de generar un mayor recaudo que las apps de pago. Los modelos de monetización son los caminos que se pueden utilizar para obtener dinero a través del uso de las aplicaciones. Suele depender de si la app es gratuita, paga o freemium; también de la categoría de la aplicación, por ejemplo, <b>compras dentro de la app (in-app purchase).</b> Algunas apps, por ejemplo, permiten pagar pequeñas cantidades de dinero por ítems (subproductos) separados, que mejoran las prestaciones básicas o generales del producto principal a comprar.
         p En la siguiente imagen se muestran ejemplos de modelos de monetización:

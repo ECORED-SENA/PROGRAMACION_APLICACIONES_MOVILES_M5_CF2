@@ -7,7 +7,7 @@
         span  5
       h1 Etapas en el desarrollo de apps    
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.slideInUp
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -27,7 +27,7 @@
     p.mb-3  Concebir la idea de la aplicación. Por lo general, esta etapa se fundamenta en la identificación de las necesidades y/o problemas de los usuarios que se pretende resolver a través de la app. Se debe realizar una investigación preliminar y un levantamiento de información que debe permitir la comprobación y viabilidad del concepto o idea.  
     p.mb-5  La conceptualización define de manera general la funcionalidad de la aplicación. La siguiente figura representa este concepto.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-8
         figcaption.customCaption.mb-2  <b>Figura</b> Etapas del desarrollo de apps
         figure 
@@ -78,7 +78,7 @@
     #t_5_2.titulo-segundo
       h2 Definición
     p.mb-5  Se identifica y define el grupo de usuarios objetivo que serán los que utilizarán la aplicación trabajando sobre sus características generales.  Con el resultado de esta caracterización, se establece la funcionalidad y alcance del proyecto, especificando el diseño y la interfaz gráfica a trabajar.  En la siguiente tabla se definen algunos de los aspectos incluidos en esta etapa.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         figcaption.customCaption.mb-2  <b>Tabla</b> Definición de aplicación
         .tabla-a.color-acento-botones.mb-5 
@@ -227,7 +227,7 @@
     br
     #t_5_4.titulo-segundo
       h2 Diseño
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -289,7 +289,7 @@
     br
     #t_5_5.titulo-segundo
       h2 Desarrollo
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -330,7 +330,7 @@
     br
     #t_5_6.titulo-segundo
       h2 Pruebas
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -379,7 +379,7 @@
 
     #t_5_7.titulo-segundo
       h2 Publicación
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
