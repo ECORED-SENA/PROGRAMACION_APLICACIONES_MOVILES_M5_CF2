@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span  4
-      h1 Frameworks para el desarrollo de aplicaciones móviles híbridas  
+      h1 <i>Frameworks</i> para el desarrollo de aplicaciones móviles híbridas  
     .row.justify-content-center.mb-5.slideInUp
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -13,9 +13,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/t4-i1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Usar un framework para el desarrollo de aplicaciones móviles híbridas facilita el trabajo de los desarrolladores, permiten que las apps móviles se ejecuten en las principales plataformas (iOS y Android). El código se puede reutilizar para el desarrollo de aplicaciones web progresivas y en aplicaciones de escritorio.
+            p.mb-0 Usar un <i>framework</i> para el desarrollo de aplicaciones móviles híbridas facilita el trabajo de los desarrolladores, permiten que las apps móviles se ejecuten en las principales plataformas (iOS y Android). El código se puede reutilizar para el desarrollo de aplicaciones web progresivas y en aplicaciones de escritorio.
 
-    p.mb-5  En la siguiente imagen se muestran algunos de los frameworks disponibles para el desarrollo de apps móviles híbridas:
+    p.mb-5  En la siguiente imagen se muestran algunos de los <i>frameworks</i> disponibles para el desarrollo de <i>apps</i> móviles híbridas:
 
     .row.mb-3
       .col-lg-3
@@ -34,7 +34,7 @@
           .text.align-items-center.p-lg-2.p-4(onclick="")
             .row(onclick="")
               .col-12
-                p Desarrollo con tecnologías web como CSS, HTML5 y Sass, para instalarse en dispositivos utilizando Cordova
+                p Desarrollo con tecnologías <i>web</i> como CSS, HTML5 y Sass, para instalarse en dispositivos utilizando Cordova
       .col-lg-3
         .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
@@ -69,7 +69,7 @@
           .text.align-items-center.p-lg-2.p-4(onclick="")
             .row(onclick="")
               .col-12
-                p Framework HTML móvil gratuito y de código abierto, prototipos para generar el diseño de aplicaciones.
+                p <i>Framework</i> HTML móvil gratuito y de código abierto, prototipos para generar el diseño de aplicaciones.
       .col-lg-3
         .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
@@ -95,7 +95,7 @@
           .text.align-items-center.p-4(onclick="")
             .row(onclick="")
               .col-12
-                p Aplicaciones nativas de Android, iOS y Windows con interfaces de usuario nativas, principal framework de desarrollo de aplicaciones móviles híbridas.
+                p Aplicaciones nativas de Android, iOS y Windows con interfaces de usuario nativas, principal <i>framework</i> de desarrollo de aplicaciones móviles híbridas.
       .col-lg-3
         .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
@@ -122,7 +122,7 @@
               figure
                 img(src='@/assets/curso/t4-ic1.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Es uno de los frameworks más recientes para el desarrollo de apps móviles híbridas, permite la creación de apps sólo JavaScript. Utiliza el mismo diseño que React, lo que le permite componer una interfaz de usuario móvil enriquecida. Con este framework, no se crea una aplicación web móvil, tampoco una aplicación basada en HTML5 o una aplicación híbrida típica. Es posible crear una aplicación móvil muy similar a una nativa, casi idéntica a una aplicación desarrollada con Objective-C o Java. React Native utiliza los mismos bloques de creación de interfaz de usuario nativa que las aplicaciones iOS y Android. 
+              p Es uno de los <i>frameworks</i> más recientes para el desarrollo de apps móviles híbridas, permite la creación de apps sólo JavaScript. Utiliza el mismo diseño que React, lo que le permite componer una interfaz de usuario móvil enriquecida. Con este <i>framework</i>, no se crea una aplicación web móvil, tampoco una aplicación basada en HTML5 o una aplicación híbrida típica. Es posible crear una aplicación móvil muy similar a una nativa, casi idéntica a una aplicación desarrollada con Objective-C o Java. React Native utiliza los mismos bloques de creación de interfaz de usuario nativa que las aplicaciones iOS y Android. 
 
 
           .row.justify-content-center.align-items-center(titulo="Ionic")       
@@ -158,21 +158,21 @@
               figure
                 img(src='@/assets/curso/t4-ic6.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Framework HTML móvil gratuito y de código abierto, permite desarrollar apps móviles híbridas, web y web progresivas (PWAs) con aspecto y sensación nativas. Se puede integrar con herramientas adicionales como Electron y NW.js, lo que le permite crear aplicaciones de escritorio nativas.  Se utiliza como herramienta para desarrollo de prototipos para generar el diseño de aplicaciones. Se centra en el diseño de materiales para iOS y Google, ofreciendo mejor experiencia y simplicidad.
+              p <i>Framework</i> HTML móvil gratuito y de código abierto, permite desarrollar apps móviles híbridas, web y web progresivas (PWAs) con aspecto y sensación nativas. Se puede integrar con herramientas adicionales como Electron y NW.js, lo que le permite crear aplicaciones de escritorio nativas.  Se utiliza como herramienta para desarrollo de prototipos para generar el diseño de aplicaciones. Se centra en el diseño de materiales para iOS y Google, ofreciendo mejor experiencia y simplicidad.
 
           .row.justify-content-center.align-items-center(titulo="Aurelia")       
             .col-md-2
               figure
                 img(src='@/assets/curso/t4-ic7.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Se podría definir como una colección de módulos JavaScript modernos, que cuando se utilizan juntos, conforman una plataforma de desarrollo ideal para crear aplicaciones web, programas de escritorio y aplicaciones móviles. La particularidad que presenta este framework es que cualquiera de los módulos de Aurelia se puede utilizar de manera independiente en cualquier proyecto de JavaScript o Node.js.  Está enfocado para desarrolladores que prefieren utilizar JavaScript o TypeScript. 
+              p Se podría definir como una colección de módulos JavaScript modernos, que cuando se utilizan juntos, conforman una plataforma de desarrollo ideal para crear aplicaciones web, programas de escritorio y aplicaciones móviles. La particularidad que presenta este <i>framework</i> es que cualquiera de los módulos de Aurelia se puede utilizar de manera independiente en cualquier proyecto de JavaScript o Node.js.  Está enfocado para desarrolladores que prefieren utilizar JavaScript o TypeScript. 
           
           .row.justify-content-center.align-items-center(titulo="Ext JS")       
             .col-md-2
               figure
                 img(src='@/assets/curso/t4-ic8.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Enfocado en el desarrollo de soluciones empresariales para crear aplicaciones web móviles multiplataforma con HTML5 y JavaScript que consumen muchos datos. Se define como uno de los mejores frameworks JavaScript.
+              p Enfocado en el desarrollo de soluciones empresariales para crear aplicaciones web móviles multiplataforma con HTML5 y JavaScript que consumen muchos datos. Se define como uno de los mejores <i>frameworks</i> JavaScript.
 
           
           .row.justify-content-center.align-items-center(titulo="Xamarin")       

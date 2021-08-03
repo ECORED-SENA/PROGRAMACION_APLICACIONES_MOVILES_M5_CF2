@@ -26,10 +26,10 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-light-blue.p-4(titulo="Qué es una app")
-        h4 Qué es una app o aplicación móvil
+        h4 Qué es una <i>app</i> o aplicación móvil
         .row
           .col-lg-8
-            p <b>Una app es una aplicación desarrollada para ser instalada y utilizada sobre un dispositivo con sistema operativo móvil.</b>  Permite al usuario personalizar su dispositivo integrando nuevas utilidades y funciones. Por lo general, son pequeñas unidades de software con funciones aisladas y limitadas, que se desarrollan para suplir una necesidad específica. Se enfoca, por ejemplo, <b>en prestar servicios de comunicación, entretenimiento, educación, ocio, trabajo, comercio, entre muchos otros.</b>
+            p <b>Una <i>app</i> es una aplicación desarrollada para ser instalada y utilizada sobre un dispositivo con sistema operativo móvil.</b>  Permite al usuario personalizar su dispositivo integrando nuevas utilidades y funciones. Por lo general, son pequeñas unidades de software con funciones aisladas y limitadas, que se desarrollan para suplir una necesidad específica. Se enfoca, por ejemplo, <b>en prestar servicios de comunicación, entretenimiento, educación, ocio, trabajo, comercio, entre muchos otros.</b>
           .col-lg-4
             figure 
               img.nW(src='@/assets/curso/t1-i2.jpg', alt='Tabla de tipos de contenidos móviles')
@@ -39,14 +39,14 @@
         h4 Aplicaciones nativas
         .row.mb-3
           .col-lg-8
-            p <b>Estas aplicaciones están diseñadas para ejecutarse únicamente sobre un dispositivo con un sistema operativo móvil específico.</b> Para su desarrollo se utiliza el lenguaje de programación propio de cada dispositivo, por lo que únicamente puede ser utilizada en dicha plataforma (se puede acceder a todas las características del hardware del móvil: cámara, GPS, agenda, dispositivos de almacenamiento, entre otras). <b>Los beneficios de estas aplicaciones son su alto rendimiento y la experiencia óptima de la interfaz gráfica,</b> que permite mejorar la experiencia de usuario a través del acceso directo a las API del sistema operativo, lo que, de alguna manera, facilita el trabajo del desarrollador, sin generar demasiadas limitantes para el uso del hardware de los diferentes dispositivos móviles.
+            p <b>Estas aplicaciones están diseñadas para ejecutarse únicamente sobre un dispositivo con un sistema operativo móvil específico.</b> Para su desarrollo se utiliza el lenguaje de programación propio de cada dispositivo, por lo que únicamente puede ser utilizada en dicha plataforma (se puede acceder a todas las características del <i>hardware</i> del móvil: cámara, GPS, agenda, dispositivos de almacenamiento, entre otras). <b>Los beneficios de estas aplicaciones son su alto rendimiento y la experiencia óptima de la interfaz gráfica,</b> que permite mejorar la experiencia de usuario a través del acceso directo a las API del sistema operativo, lo que, de alguna manera, facilita el trabajo del desarrollador, sin generar demasiadas limitantes para el uso del <i>hardware</i> de los diferentes dispositivos móviles.
           .col-lg-4
             figure 
               img.nW(src='@/assets/curso/t1-i3.jpg', alt='Tabla de tipos de contenidos móviles')
         .row.justify-content-center
           .col-lg-12
             .cajon.color-acento-contenido.p-4
-              p <b>El costo en términos monetarios de desarrollar este tipo de aplicaciones es alto.</b> Según la complejidad de la app a desarrollar, para su creación y mantenimiento, a veces es necesario contar con dos o más equipos de desarrollo especializados en cada uno de los sistemas operativos sobre los que se busca desplegar la aplicación.
+              p <b>El costo en términos monetarios de desarrollar este tipo de aplicaciones es alto.</b> Según la complejidad de la <i>app</i> a desarrollar, para su creación y mantenimiento, a veces es necesario contar con dos o más equipos de desarrollo especializados en cada uno de los sistemas operativos sobre los que se busca desplegar la aplicación.
 
       .tarjeta.color-light-blue.p-4(titulo="Aplicaciones web")
         h4 Aplicaciones web
@@ -62,7 +62,7 @@
         h4 Aplicaciones híbridas
         .row.mb-3
           .col-lg-8
-            p.mb-3 <b>Se crean utilizando tecnologías web como JavaScript, CSS y HTML5, son un poco más sencillas y rápidas de desarrollar gracias a los <i>frameworks</i> de desarrollo,</b> que proporcionan herramientas que facilitan de alguna manera las actividades de los diseñadores y desarrolladores. Una de sus características más representativas es que trabajan con una sola base de código para todas las plataformas, lo que permite reducir el costo de desarrollo, mantenimiento y actualización. <b>Los desarrolladores pueden aprovechar muchas de las API nativas para utilizar el hardware,</b> accediendo a las funciones básicas y complejas de los dispositivos de manera directa.
+            p.mb-3 <b>Se crean utilizando tecnologías web como JavaScript, CSS y HTML5, son un poco más sencillas y rápidas de desarrollar gracias a los <i>frameworks</i> de desarrollo,</b> que proporcionan herramientas que facilitan de alguna manera las actividades de los diseñadores y desarrolladores. Una de sus características más representativas es que trabajan con una sola base de código para todas las plataformas, lo que permite reducir el costo de desarrollo, mantenimiento y actualización. <b>Los desarrolladores pueden aprovechar muchas de las API nativas para utilizar el <i>hardware</i>,</b> accediendo a las funciones básicas y complejas de los dispositivos de manera directa.
             p <b>Su rendimiento y velocidad no son los óptimos, se ven disminuidos frente a las aplicaciones realizadas de manera nativa.</b>  En algunos casos, se pueden experimentar problemas de diseño, por lo que es posible que la aplicación no tenga el mismo aspecto visual en dos o más plataformas. Estas características se están mejorando, en el mercado se encuentran varios <i>frameworks</i> que permiten alcanzar un muy buen rendimiento y no están lejos de presentar los mismos beneficios de las aplicaciones nativas.
           .col-lg-4
             figure 
