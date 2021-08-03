@@ -43,7 +43,7 @@
           .row.justify-content-center.align-items-center(titulo="El modelo freemium")       
             .col-md-2
               figure
-                img(src='@/assets/curso/t2-ic4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/t2-ic6.png', alt='Texto que describa la imagen')
             .col-md-8
               p Es una combinación de los tipos descritos previamente. Su nombre es una mezcla de las palabras inglesas free y premium. Son aplicaciones de descarga gratuita, que permiten un uso básico y limitado de sus funcionalidades, y que requieren de un pago para poder usar funcionalidades avanzadas.
 
