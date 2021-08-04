@@ -49,7 +49,7 @@
               p <b>El costo en términos monetarios de desarrollar este tipo de aplicaciones es alto.</b> Según la complejidad de la <i>app</i> a desarrollar, para su creación y mantenimiento, a veces es necesario contar con dos o más equipos de desarrollo especializados en cada uno de los sistemas operativos sobre los que se busca desplegar la aplicación.
 
       .tarjeta.color-light-blue.p-4(titulo="Aplicaciones web")
-        h4 Aplicaciones web
+        h4 Aplicaciones <i>web</i>
         .row.mb-3
           .col-lg-8
             p.mb-3 <b>Las aplicaciones web utilizan navegadores para ejecutarse; se desarrollan utilizando CSS, HTML5, JavaScript.</b> Estas aplicaciones redirigen al usuario a una URL y luego ofrecen la opción de instalar la aplicación o trabajar sobre un navegador web del dispositivo.
