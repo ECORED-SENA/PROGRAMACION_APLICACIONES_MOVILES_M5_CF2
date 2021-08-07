@@ -93,7 +93,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Cadenas, R. (2019). ¿Qué necesito? ¿Web Apps, App Nativa o App Híbrida? GSoft.',
+        'Cadenas, R. (2019). ¿Qué necesito? <i>¿Web Apps, App Nativa o App Híbrida?</i> GSoft.',
       link:
         'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
     },
@@ -132,7 +132,7 @@ export default {
   complementario: [
     {
       texto:
-        'Web app, nativa o híbrida: Cadenas, R. (2019). ¿Qué necesito? ¿Web Apps, App Nativa o App Híbrida? GSoft.',
+        'Web app, nativa o híbrida: Cadenas, R. (2019). ¿Qué necesito? <i>¿Web Apps, App Nativa o App Híbrida?</i> GSoft.',
       tipo: 'Página web',
       link:
         'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
