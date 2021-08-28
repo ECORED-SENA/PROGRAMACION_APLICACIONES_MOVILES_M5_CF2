@@ -116,7 +116,7 @@
               figure
                 img(src='@/assets/curso/t4-ic1.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Es uno de los <i>frameworks</i> más recientes para el desarrollo de apps móviles híbridas, permite la creación de apps sólo JavaScript. Utiliza el mismo diseño que React, lo que le permite componer una interfaz de usuario móvil enriquecida. Con este <i>framework</i>, no se crea una aplicación web móvil, tampoco una aplicación basada en HTML5 o una aplicación híbrida típica. Es posible crear una aplicación móvil muy similar a una nativa, casi idéntica a una aplicación desarrollada con Objective-C o Java. React Native utiliza los mismos bloques de creación de interfaz de usuario nativa que las aplicaciones iOS y Android. 
+              p Es uno de los <i>frameworks</i> más recientes para el desarrollo de apps móviles híbridas, permite la creación de apps solo JavaScript. Utiliza el mismo diseño que React, lo que le permite componer una interfaz de usuario móvil enriquecida. Con este <i>framework</i>, no se crea una aplicación web móvil, tampoco una aplicación basada en HTML5 o una aplicación híbrida típica. Es posible crear una aplicación móvil muy similar a una nativa, casi idéntica a una aplicación desarrollada con Objective-C o Java. React Native utiliza los mismos bloques de creación de interfaz de usuario nativa que las aplicaciones iOS y Android. 
 
 
           .row.justify-content-center.align-items-center(titulo="Ionic")       

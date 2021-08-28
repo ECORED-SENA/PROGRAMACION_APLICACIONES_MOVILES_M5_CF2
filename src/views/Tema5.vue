@@ -112,7 +112,7 @@
       .col-lg-7
         p.mb-3  Permite realizar una previsualización de cómo se desarrollará la aplicación, generando la secuencia de pasos que representan el escenario en el que un usuario puede interactuar con el proyecto. Sirve para entender la dinámica de la aplicación y permite diseñar una mejor experiencia de usuario.
         p.mb-3  Permite comunicar de manera clara la idea del proyecto a todas las partes interesadas, simulando el comportamiento del usuario: cómo va a interactuar con el proyecto, detectando errores tempranos antes de iniciar el diseño.
-        p.mb-3  Ayuda a definir la interfaz y el flujo de trabajo sobre los diferentes escenarios, clarificando las tareas que el usuario va realizar y qué tipo de interfaz de usuario es óptima para llevar a cabo las operaciones.
+        p.mb-3  Ayuda a definir la interfaz y el flujo de trabajo sobre los diferentes escenarios, clarificando las tareas que el usuario va a realizar y qué tipo de interfaz de usuario es óptima para llevar a cabo las operaciones.
         .cajon.color-acento-contenido.p-4
           p Por lo general, se utiliza al inicio del proyecto para visualizar los requisitos y funcionalidad, ayuda a sustentar otras actividades importantes en el diseño, también se utiliza al finalizar el desarrollo para verificar la funcionalidad, desempeño y nivel de satisfacción del cliente.
       .col-lg-5

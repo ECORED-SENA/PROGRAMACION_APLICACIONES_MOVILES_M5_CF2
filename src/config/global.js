@@ -116,7 +116,7 @@ export default {
     {
       termino: 'JavaScript',
       significado:
-        'Lenguaje de programación para WWW, desarrollado por Netscape. Al igual que VBScript, pertenece a la familia Java, pero se diferencia de este último en que los programas están incorporados en el fichero HTML.Ver también: "Java", "script", "VBScript". [RFCALVO]',
+        'Lenguaje de programación para WWW, desarrollado por Netscape. Al igual que VBScript, pertenece a la familia Java, pero se diferencia de este último en que los programas están incorporados en el fichero HTML. Ver también: "Java", "script", "VBScript". [RFCALVO]',
     },
     {
       termino: 'Operating System – OS(sistema operativo)',
